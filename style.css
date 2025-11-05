@@ -1,0 +1,430 @@
+html {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+}
+
+/*Phone*/
+@media (min-width:100px) {
+
+    /*Took from pdf of lecture*/
+    section,
+    header {
+        margin-left: 0em;
+        margin-right: 0em;
+
+
+    }
+
+}
+
+@media (min-width:600px) {
+
+    section,
+    header,
+    footer {
+        margin-left: 2em;
+        margin-right: 2em;
+
+    }
+
+
+}
+
+/* Desktop */
+@media (min-width:1050px) {
+
+    section,
+    header,
+    footer {
+        margin-left: 5em;
+        margin-right: 5em;
+
+    }
+}
+
+/*Bigger Desktop*/
+@media (min-width:1250px) {
+
+    section,
+    header,
+    footer {
+        margin-left: 10em;
+        margin-right: 10em;
+
+    }
+}
+
+
+
+a:link {
+    color: black;
+    text-decoration: none;
+
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #991115;
+
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+section {
+    background-color: #D3aF37;
+    border-radius: 1em;
+    padding: 1em;
+    margin-top: 2em;
+
+
+
+}
+
+header {
+    background-color: #D3aF37;
+    border-radius: 1em;
+    padding: 1em;
+    margin-bottom: 2em;
+    margin-top: 2em;
+
+
+}
+
+.nav {
+    list-style-type: none;
+    /*https://www.w3schools.com/css/css3_flexbox.asp*/
+    gap: 1em;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+footer {
+    color: #991115;
+    background-color: #D3aF37;
+    border-radius: 1em;
+    padding: 0.5em;
+    text-align: center;
+    margin-top: 2em;
+
+}
+
+.nav_items {
+    background-color: white;
+    border-radius: 1em;
+    padding: 1em;
+
+
+}
+
+.nav_items:hover {
+    scale: 1.05;
+    box-shadow: 10px 10px #991115;
+    /*https://www.w3schools.com/css/css3_shadows_box.asp*/
+}
+
+.title {
+    color: #991115;
+    width: 100%;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.title2 {
+    color: #991115;
+    width: 100%;
+    text-align: center;
+    font-size: x-large;
+}
+
+.title3 {
+    color: #991115;
+    width: 100%;
+    font-size: x-large;
+    text-align: center;
+}
+
+.div1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.div2 {
+    width: 60%;
+    text-align: center;
+    font-size: larger;
+
+}
+
+#div4 {
+    width: 40%;
+    text-align: center
+}
+
+.divcolumn {
+    display: column;
+    width: fit-content;
+}
+
+/*Images*/
+.images {
+    width: 150px;
+    height: 200px;
+    border-radius: 1em;
+    margin-top: 1em;
+    min-width: 150px;
+}
+
+.imagegallery {
+    width: 300px;
+    border-radius: 1em;
+
+}
+
+.imagegallery:hover {
+    scale: 1.05
+}
+
+.gallery_item {
+    background-color: #991115;
+    border: #991115 15px solid;
+    border-radius: 1em;
+    margin: 5px;
+    width: 300px;
+
+
+}
+
+.gallery_item_description {
+    /*https://www.w3schools.com/css/css_image_gallery.asp*/
+    padding: 10px;
+    text-align: center;
+    border-radius: 1em;
+    background-color: #991115;
+
+}
+
+.images:hover {
+    scale: 1.1;
+    box-shadow: #991115 0px 5px 100px;
+}
+
+#img1 {
+    /*Got that from https://www.w3schools.com/css/css3_images_modal.asp*/
+    width: 50%;
+    border-radius: 1em;
+
+
+}
+
+#img1:hover {
+    scale: 1.1;
+    box-shadow: #991115 0px 5px 100px;
+}
+
+#img2 {
+    width: 50%;
+    border-radius: 1em;
+
+}
+
+#img2:hover {
+    scale: 1.05;
+    box-shadow: #991115 0px 5px 100px;
+}
+
+#img3 {
+    width: 35%;
+    border-radius: 1em;
+    margin-top: 1em;
+    min-width: 400px;
+    max-width: 400px;
+}
+
+#img3:hover {
+    scale: 1.05;
+    box-shadow: #991115 0px 5px 100px;
+}
+
+#img4 {
+    width: 600px;
+    border-radius: 1em;
+    min-width: 200px;
+}
+
+#img4:hover {
+    scale: 1.05;
+    box-shadow: #991115 0px 5px 100px;
+}
+
+#img5 {
+    width: 200px;
+    border-radius: 1em;
+}
+
+#img5:hover {
+    scale: 1.05;
+    box-shadow: #991115 0px 5px 100px;
+}
+
+#img6 {
+    width: 200px;
+    border-radius: 1em;
+}
+
+#img6:hover {
+    scale: 1.05;
+    box-shadow: #991115 0px 5px 100px;
+}
+
+#img7 {
+    width: 200px;
+    border-radius: 1em;
+
+}
+
+#img7:hover {
+    scale: 1.05;
+    box-shadow: #991115 0px 5px 100px;
+}
+
+#img8 {
+    width: 200px;
+    border-radius: 1em;
+}
+
+#img8:hover {
+    scale: 1.05;
+    box-shadow: #991115 0px 5px 100px;
+}
+
+#img9 {
+    width: 200px;
+}
+
+#img9:hover {
+    scale: 1.05;
+    box-shadow: #991115 0px 5px 100px;
+}
+
+#img10 {
+    float: right;
+    width: 200px;
+    border-radius: 100px;
+}
+
+#img11 {
+    width: 300px;
+}
+
+#img11:hover {
+    scale: 1.05;
+    box-shadow: #991115 0px 5px 100px;
+}
+
+#img12 {
+    width: 300px;
+}
+
+#img12:hover {
+    scale: 1.05;
+    box-shadow: #991115 0px 5px 100px;
+}
+
+#img13 {
+    width: 300px;
+    border-radius: 1em;
+}
+
+#img13:hover {
+    scale: 1.05;
+    box-shadow: #991115 0px 5px 100px;
+}
+
+
+.paragraph1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+
+}
+
+.paragraph2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    /*https://www.w3schools.com/css/css_image_gallery.asp*/
+
+}
+
+.greyparagraph {
+    background-color: dimgray;
+    width: 100%;
+    border-radius: 1em;
+}
+
+#CV {
+    background-color: white;
+}
+
+.imageborder {
+    width: fit-content;
+    border: black 2px solid;
+    float: right;
+    /*https://www.w3schools.com/css/css_float.asp*/
+    margin-right: 30px;
+    margin-top: 20px;
+}
+
+.text1 {
+    text-align: center;
+    width: 50%;
+}
+
+.text2 {
+    text-align: left;
+    width: fit-content;
+    display: inline-flex;
+    padding: 10px;
+}
+
+.text3 {
+    display: grid;
+    padding: 10px;
+    width: fit-content;
+    text-align: center;
+    justify-content: space-evenly;
+
+}
+
+.text4 {
+    text-align: left;
+    padding: auto;
+}
+
+.text5 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+
+}
+
+.img {
+    width: fit-content;
+    height: fit-content;
+
+}
